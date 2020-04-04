@@ -1,1 +1,16 @@
-a
+#include <stdio.h>
+
+int main()
+{	
+	int a;
+	char b[30];
+
+	
+	printf("VALOR EM DECIMAL:\n\n\n");
+	scanf("%d" ,&a);
+	
+	itoa(a,b,2)
+	
+	printf("%d EM BINARIO: %s\n",a,b);
+	system("pause");
+}
